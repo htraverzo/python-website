@@ -2,68 +2,29 @@
 <html>
     <head>
         <title>Python 1st Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
         <style>
-        h1{
-            font-size:40px;
-            font-family:Roboto;
-            font-weight:normal;
-            color:gray;
-            text-align:center;
-            background-color: #4CAF50;
-        }
-
-        #banner {
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%
+            #banner{
+                width: 100%;
+                height: 360px;
                 object-fit: cover;
-                }
-
-        h2{
-            font-size:30px;
-            font-family:Roboto;
-            font-weight:normal;
-            color:red;
-            font-weight:bold;
-            text-align:center;
-        }   
-        .bodytext{
-            font-family:Roboto;
-            color:black;
-        }
-
-        #container{
-            max-width: 500px;
-            margin: 0 auto 0 auto;
-            text-align: center
-        }
-
-        #contactus{
-            text-align: center
-            margin-top: 100px
-            margin-bottom: 100px
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%
-            object-fit:
-            cover;
-            background-color: #4CAF50;
-        }
+            }
         </style>
     </head>
     <body>
-        <div id="container">
-            <h1>Welcome to the Home Page!</h1>
-            <p>This is a simple home page.</p>
-             <img id="banner" src="https://replit.com/@hectortraverzo2/python-website-1#images/pythonimg.jpeg" height: 320px>
-            <h2>About Python Project</h2>
-            <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="container">
+            <h1 class="text-center mt-2 mb-4">Welcome to the Home Page!</h1>
+             <img class="img-fluid" id="banner" src="https://replit.com/@hectortraverzo2/python-website-1#images/pythonimg.jpeg" height: 320px>
+            <h2 class="text-center mt-2 mb-4">About Python Project</h2>
+            <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <h3>Learning pages</h3>
-            <p class="bodytext">TODO - complete later</p>
+            <h3 class="text-center mt-2 mb-4">Learning pages</h3>
+            <p >TODO - complete later</p>
             <div id="contactus">
                 <button>Contact Us</button>
-                <p>"Copyright 2023, Python Project. All Rights Reserved."</p>
+                <p class="mt-4 mb-4">Copyright 2023, Python Project. All Rights Reserved.</p>
             </div>
          </div>
     </body>    
