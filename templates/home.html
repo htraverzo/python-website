@@ -14,6 +14,7 @@
         </style>
     </head>
     <body>
+        {% include 'nav.html' %}
         <div class="container">
             <h1 class="text-center mt-2 mb-4">Welcome to the Home Page!</h1>
              <img class="img-fluid" id="banner" src="https://replit.com/@hectortraverzo2/python-website-1#images/pythonimg.jpeg" height: 320px>
@@ -31,6 +32,9 @@
                    <button class="btn btn-primary" type="button">Contact US</button>
                 <p class="mt-4 mb-4">Copyright 2023, Python Project. All Rights Reserved.</p>
             </div>
+         </div>
+         <div style='align-items: center;'>
+            {% include 'footer.html' %}
          </div>
     </body>    
 </html>
